@@ -11,13 +11,13 @@ _DemoLocatorHook:
     jne .Lcontinue_locator
     # These flags belong to the demo locators. The stock game ignores them.
     cmp dword ptr [edi + 4], 0x4d425601
-    je .Lphone_booth_car
+    je .Lformula_one_car
     cmp dword ptr [edi + 4], 0x4d425602
     jne .Lcontinue_locator
     mov ecx, offset bart_car
     jmp .Ladd_demo_car
-.Lphone_booth_car:
-    mov ecx, offset phone_booth_car
+.Lformula_one_car:
+    mov ecx, offset formula_one_car
 .Ladd_demo_car:
     push ebx
     push ecx
@@ -205,5 +205,5 @@ get_avatar_for_player:   .long 0x4d7f40
 get_avatar_vehicle:      .long 0x4c7800
 get_vehicle_central:     .long 0x4dab90
 is_under_construction:   .long 0x4dbec0
-phone_booth_car:         .asciz "fone_v"
+formula_one_car:         .asciz "fone_v"
 bart_car:                .asciz "bart_v"

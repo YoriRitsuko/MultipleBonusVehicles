@@ -11,15 +11,12 @@ Grab the hack and the optional demo from [Releases](https://github.com/YoriRitsu
    Make the folder if it's missing.
 2. Reload the mod list and tick **Multiple Bonus Vehicles** in **Settings**.
 
-Upgrading from 1.0? Close the game and move the old bonus car LMLM and its
-`d3d8.dll` out of the launcher and game folders first.
-
 ## Try the Level 1 demo
 
-Drop the demo `.lmlm` into `Mods` and tick it in
-**General**. Lucas loads the hack with it. Start Level 1 and look for the red
-convertible and Bart's Honor Roller outside the Simpsons house. Untick the
-demo when you're testing your own Level 1 map.
+Drop the demo `.lmlm` into `Mods` and tick it in **General**. Lucas loads the
+hack with it. Start Level 1 and look for the Formula 1 car and Bart's Ferrini
+outside the Simpsons house. Untick the demo when you're testing your own
+Level 1 map.
 
 ## Build from source
 
